@@ -1,4 +1,4 @@
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 tasmapr
 =======
 
@@ -6,6 +6,10 @@ The goal of tasmapr is to provide background maps of Tasmania for R leaflet.
 
 Install
 =======
+
+``` r
+devtools::install_github("mdsumner/tasmapr")
+```
 
 Example
 -------
