@@ -16,8 +16,12 @@ devtools::install_github("mdsumner/tasmapr")
 
 This is a basic example which shows you how to make an awesome map!
 
+
+
 ```{r example, html}
 library(tasmapr)
 tasmap()
 
 ```
+
+See it here: http://rpubs.com/cyclemumner/283273
