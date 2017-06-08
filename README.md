@@ -4,6 +4,9 @@ tasmapr
 
 The goal of tasmapr is to provide background maps of Tasmania for R leaflet.
 
+Install
+=======
+
 Example
 -------
 
