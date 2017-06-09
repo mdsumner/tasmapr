@@ -3,6 +3,10 @@ output: html_document
 ---
 
 
+[![Travis-CI Build Status](https://travis-ci.org/mdsumner/tasmapr.svg?branch=master)](https://travis-ci.org/mdsumner/tasmapr)
+
+
+
 # tasmapr
 
 The goal of tasmapr is to provide background maps of Tasmania for R leaflet. 
