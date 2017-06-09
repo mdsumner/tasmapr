@@ -4,12 +4,14 @@
 \alias{tasmap}
 \title{Tasmania maps}
 \usage{
-tasmap(map, data, ...)
+tasmap(map, data, basemap = "Topographic", ...)
 }
 \arguments{
 \item{map}{optional mapview object}
 
 \item{data}{see \code{mapview::mapview}}
+
+\item{basemap}{short name of Tasmap baselayer, see \code{tasmap::listTasmapLayers} or the URL of the WMS service to use}
 
 \item{...}{see mapview}
 }
