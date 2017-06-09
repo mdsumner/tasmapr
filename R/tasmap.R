@@ -2,7 +2,7 @@
 #'
 #' @param map optional mapview object
 #' @param data see `mapview::mapview`
-#' @param basemap short name of Tasmap baselayer, see `tasmap::listTasmapLayers` or the URL of the WMS service to use
+#' @param basemap short name of Tasmap baselayer, see `tasmapr::listTasmapLayers` or the URL of the WMS service to use
 #' @param ... see mapview
 #'
 #' @return

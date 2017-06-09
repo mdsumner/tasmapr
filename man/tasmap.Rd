@@ -11,7 +11,7 @@ tasmap(map, data, basemap = "Topographic", ...)
 
 \item{data}{see \code{mapview::mapview}}
 
-\item{basemap}{short name of Tasmap baselayer, see \code{tasmap::listTasmapLayers} or the URL of the WMS service to use}
+\item{basemap}{short name of Tasmap baselayer, see \code{tasmapr::listTasmapLayers} or the URL of the WMS service to use}
 
 \item{...}{see mapview}
 }
