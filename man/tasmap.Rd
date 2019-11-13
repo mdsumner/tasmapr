@@ -4,7 +4,7 @@
 \alias{tasmap}
 \title{Tasmania maps}
 \usage{
-tasmap(map, data, basemap = "Topographic", ...)
+tasmap(map, data, basemap = "Topographic", ..., layers = "0")
 }
 \arguments{
 \item{map}{optional mapview object}
@@ -14,6 +14,8 @@ tasmap(map, data, basemap = "Topographic", ...)
 \item{basemap}{short name of Tasmap baselayer, see \code{tasmapr::listTasmapLayers} or the URL of the WMS service to use}
 
 \item{...}{see mapview}
+
+\item{layers}{layers argument to \code{\link[leaflet:addWMSTiles]{leaflet::addWMSTiles()}}}
 }
 \value{
 mapview object

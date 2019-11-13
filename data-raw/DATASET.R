@@ -18,7 +18,7 @@ d <- structure(list(Name = c("Orthophoto", "Tasmap25k", "Tasmap100k",
 tasmap_layers <- tibble::tribble(
   ~Name, ~ServiceUrl,
   "TTSA", "https://services.thelist.tas.gov.au/arcgis/services/Raster/TTSA/MapServer/WMSServer?",
-  "ESgisMapBookPUBLIC", "https://services.thelist.tas.gov.au/arcgis/services/Basemaps/ESgisMapBookPUBLIC/MapServer/WMSServer?",
+  "ESgisMapBookPUBLIC", "https://services.thelist.tas.gov.au/arcgis/services/Basemaps/ESgisMapBookPUBLIC/MapServer/WMSServer",
   "HillshadeGrey", "https://services.thelist.tas.gov.au/arcgis/services/Basemaps/HillshadeGrey/MapServer/WMSServer?",
   "Tasmap250K", "https://services.thelist.tas.gov.au/arcgis/services/Basemaps/Tasmap250K/MapServer/WMSServer?",
   "Topographic","https://services.thelist.tas.gov.au/arcgis/services/Basemaps/Topographic/MapServer/WMSServer?"
