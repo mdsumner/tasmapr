@@ -4,3 +4,6 @@
 ^README-.*\.png$
 ^rsconnect$
 ^\.travis\.yml$
+^data-raw$
+^gdalwmscache$
+^tests/testthat/gdalwmscache$
