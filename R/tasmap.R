@@ -32,7 +32,8 @@ tasmap <- function(map, data, basemap="Topographic",..., layers = "0") {
     selected_basemap <- basemap
     basemap_name <- "CustomWMS"
   }
-   map@map %>% leaflet::addWMSTiles(group=basemap_name,baseUrl=selected_basemap,layers = layers) %>%
-    mapview:::mapViewLayersControl(names = c(basemap_name))
+   map@map %>% leaflet::addWMSTiles(group=basemap_name,
+                                    baseUrl=selected_basemap,layers = layers) %>%
+     leafem::updateLayersControl(addOverlayGroups =  c(basemap_name))
 }
 
