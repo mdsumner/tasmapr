@@ -1,5 +1,7 @@
 ---
-output: html_document
+output: github_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 
@@ -22,10 +24,23 @@ This is a basic example which shows you how to make an awesome map!
 
 
 
-```{r example, html}
+```{r example, eval = FALSE}
 library(tasmapr)
-tasmap()
+tasmap()  ## Topographic basemap
+
+
+tasmap(basemap = "TTSA")  ## Tasmania Towns Street Atlas
+
+tasmap(basemap = "HillshadeGrey")  ## hill shade
 
 ```
 
 See it here: http://rpubs.com/cyclemumner/283273
+
+
+See https://github.com/mdsumner/wmts.git for a way to get these layers as raster data. 
+
+## Code of Conduct
+  
+Please note that the tasmapr project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/1/0/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+

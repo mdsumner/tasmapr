@@ -6,6 +6,9 @@
 \usage{
 listTasmapLayers()
 }
+\value{
+names vector
+}
 \description{
 List Tasmanian maps layers
 }

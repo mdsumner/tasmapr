@@ -15,6 +15,8 @@
 #' @examples
 #' tasmap(basemap = "TTSA")
 tasmap <- function(map, data, basemap="Topographic",...) {
+
+
   if (missing(map)) {
     map <- mapview::mapview()
     map@map <- map@map %>% leaflet::setView(lng = 147.3, lat = -42.9, zoom = 12)

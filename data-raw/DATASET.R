@@ -20,7 +20,8 @@ tasmap_layers <- tibble::tribble(
   "TTSA", "https://services.thelist.tas.gov.au/arcgis/services/Raster/TTSA/MapServer/WMSServer?",
   "ESgisMapBookPUBLIC", "https://services.thelist.tas.gov.au/arcgis/services/Basemaps/ESgisMapBookPUBLIC/MapServer/WMSServer?",
   "HillshadeGrey", "https://services.thelist.tas.gov.au/arcgis/services/Basemaps/HillshadeGrey/MapServer/WMSServer?",
-  "Tasmap250K", "https://services.thelist.tas.gov.au/arcgis/services/Basemaps/Tasmap250K/MapServer/WMSServer?"
+  "Tasmap250K", "https://services.thelist.tas.gov.au/arcgis/services/Basemaps/Tasmap250K/MapServer/WMSServer?",
+  "Topographic","https://services.thelist.tas.gov.au/arcgis/services/Basemaps/Topographic/MapServer/WMSServer?"
 )
-tasmap_layers <- dplyr::bind_rows(d, tasmap_layers)
+##tasmap_layers <- dplyr::bind_rows(d, tasmap_layers)
 usethis::use_data(tasmap_layers, overwrite = TRUE)

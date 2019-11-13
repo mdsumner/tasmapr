@@ -15,8 +15,14 @@ tasmap(map, data, basemap = "Topographic", ...)
 
 \item{...}{see mapview}
 }
+\value{
+mapview object
+}
 \description{
 Tasmania maps
+}
+\examples{
+tasmap(basemap = "TTSA")
 }
 \references{
 https://atriplex.info/blog/index.php/2017/06/08/adding-wms-basemaps-to-a-mapview-map/

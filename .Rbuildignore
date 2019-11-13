@@ -7,3 +7,4 @@
 ^data-raw$
 ^gdalwmscache$
 ^tests/testthat/gdalwmscache$
+^CODE_OF_CONDUCT\.md$

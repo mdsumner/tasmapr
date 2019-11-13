@@ -1,9 +1,9 @@
 Package: tasmapr
-Title: Tasmania Maps
-Version: 0.0.0.9000
+Title: Tasmania Mapserver
+Version: 0.1.0
 Authors@R: c(person("Grant", "Williamson", email = "first.last@example.com", role = c("aut")), 
              person("Michael", "Sumner", email = "first.last@example.com", role = c("aut", "cre")))
-Description: Tile maps from <thelist.tas.gov.au>.
+Description: Tile map servers from 'TheList' <https://maps.thelist.tas.gov.au/listmap/app/list/map>.
 Depends: R (>= 3.4.0)
 License: GPL-3
 Encoding: UTF-8
@@ -14,4 +14,3 @@ Imports:
     mapview, 
     magrittr
 Roxygen: list(markdown = TRUE)
-LazyData: true
