@@ -14,3 +14,4 @@ Imports:
     mapview, 
     magrittr
 Roxygen: list(markdown = TRUE)
+LazyData: true

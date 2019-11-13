@@ -5,7 +5,7 @@
 #' @param basemap short name of Tasmap baselayer, see `tasmapr::listTasmapLayers` or the URL of the WMS service to use
 #' @param ... see mapview
 #'
-#' @return
+#' @return mapview object
 #' @export
 #' @importFrom magrittr %>%
 #' @importFrom mapview mapview
@@ -13,6 +13,7 @@
 #' @references
 #' https://atriplex.info/blog/index.php/2017/06/08/adding-wms-basemaps-to-a-mapview-map/
 #' @examples
+#' tasmap(basemap = "TTSA")
 tasmap <- function(map, data, basemap="Topographic",...) {
   if (missing(map)) {
     map <- mapview::mapview()
