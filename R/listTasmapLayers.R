@@ -1,6 +1,6 @@
 #' List Tasmanian maps layers
 #'
-#' @return
+#' @return names vector
 #' @export
 #' @examples
 #' listTasmapLayers()
