@@ -4,6 +4,11 @@
 \name{tasmap_layers}
 \alias{tasmap_layers}
 \title{Tasmap layers}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 5 rows and 2 columns.}
+\usage{
+tasmap_layers
+}
 \description{
 Data frame of Name, ServiceUrl of THELIST mapserver services.
 }
+\keyword{datasets}

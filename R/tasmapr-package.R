@@ -12,4 +12,4 @@ NULL
 #' Data frame of Name, ServiceUrl of THELIST mapserver services.
 #' @docType data
 #' @name tasmap_layers
-NULL
+"tasmap_layers"
