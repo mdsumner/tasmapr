@@ -17,6 +17,9 @@ devtools::install_github("mdsumner/tasmapr")
 
 This is a basic example which shows you how to make an awesome map\!
 
+The `tasmapr()` function will launch a mapview/leaflet viewer with the
+chosen basemap. Some layers are in dev due to a recent upgrade, WIP.
+
 ``` r
 library(tasmapr)
 tasmap()  ## Topographic basemap
@@ -26,8 +29,6 @@ tasmap(basemap = "TTSA")  ## Tasmania Towns Street Atlas
 
 tasmap(basemap = "HillshadeGrey")  ## hill shade
 ```
-
-See it here: <http://rpubs.com/cyclemumner/283273>
 
 See <https://github.com/mdsumner/wmts.git> for a way to get these layers
 as raster data.
