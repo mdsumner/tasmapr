@@ -1,9 +1,6 @@
 #' List Tasmanian maps layers
 #'
-#' @return names vector
-#' @export
-#' @examples
-#' listTasmapLayers()
+#' @noRd
 listTasmapLayers <- function(){
-  return(tasmap_layers$Name)
+  .Defunct()
 }

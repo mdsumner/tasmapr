@@ -1,8 +1,10 @@
+utils::globalVariables("tasmap_layers")
+
 #' Tasmania maps
 #'
 #' @param map optional mapview object
 #' @param data see `mapview::mapview`
-#' @param basemap short name of Tasmap baselayer, see `tasmapr::listTasmapLayers` or the URL of the WMS service to use
+#' @param basemap short name of Tasmap baselayer, see `tasmapr::tasmap_layers` or the URL of the WMS service to use
 #' @param ... see mapview
 #' @param layers layers argument to [leaflet::addWMSTiles()]
 #'
@@ -29,6 +31,9 @@ if (missing(map)) {
   }else{
     selected_basemap <- basemap
     basemap_name <- "CustomWMS"
+  }
+  if (basemap == "ESgisMapBookPUBLIC") {
+    warning("ESgisMapBookPUBLIC is not working properly, not sure why atm")
   }
    map@map %>% leaflet::addWMSTiles(group=basemap_name,
                                     baseUrl=selected_basemap,layers = layers) %>%

@@ -16,3 +16,6 @@ Imports:
     magrittr
 Roxygen: list(markdown = TRUE)
 Remotes: r-spatial/leafem, r-spatial/mapview@develop
+Suggests: 
+    covr,
+    testthat (>= 2.1.0)
