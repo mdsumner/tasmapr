@@ -1,6 +1,11 @@
 
+<!-- badges: start -->
+
 [![Travis-CI Build
 Status](https://travis-ci.org/mdsumner/tasmapr.svg?branch=master)](https://travis-ci.org/mdsumner/tasmapr)
+[![Codecov test
+coverage](https://codecov.io/gh/mdsumner/tasmapr/branch/master/graph/badge.svg)](https://codecov.io/gh/mdsumner/tasmapr?branch=master)
+<!-- badges: end -->
 
 # tasmapr
 
